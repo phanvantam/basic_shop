@@ -1,0 +1,36 @@
+#slide-listProject .item { margin: 0px 10px; text-align: center;}
+#slide-listProject .item a{margin: 10px 0px;
+                           display: block;}
+
+#list_tips .item { margin: 0px 10px; text-align: center;}
+#list_tips .item a{margin: 10px 0px;
+                   display: block;}
+
+#owl-demo .item{
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.customNavigation{
+    text-align: center;
+    position: absolute;
+}
+
+.section_4 .customNavigation{text-align: center;
+                             position: absolute;
+                             top: 13px;
+                             right: 0px;}
+
+.customNavigation a{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

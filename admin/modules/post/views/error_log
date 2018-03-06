@@ -1,0 +1,7 @@
+[29-Jan-2018 01:03:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/addCatView.php on line 1
+[29-Jan-2018 01:03:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/editCatView.php on line 1
+[29-Jan-2018 01:04:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/editCatView.php on line 1
+[29-Jan-2018 01:04:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/editCatView.php on line 1
+[29-Jan-2018 01:04:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/editCatView.php on line 1
+[29-Jan-2018 01:04:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/editCatView.php on line 1
+[29-Jan-2018 01:04:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/post/views/addIndexView.php on line 1

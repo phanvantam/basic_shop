@@ -1,0 +1,1 @@
+[29-Jan-2018 00:31:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/phanvantam/public_html/admin/modules/page/views/indexIndexView.php on line 1

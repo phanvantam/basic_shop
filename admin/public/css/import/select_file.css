@@ -1,0 +1,103 @@
+.input-file-container {
+    position: relative;
+    width: 100%;
+}
+.js .input-file-container button i{
+    font-size: 20px;
+    padding: 16px;
+    color: #FEE;
+}
+.input-file-container button i:hover{
+    border: solid 1px #fff ;
+}
+.input-file-container button{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background-color: unset ;
+    border: none;
+    padding: 0 0 ;
+}
+.js .input-file-trigger {
+    display: block;
+    padding: 14px 10px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+.js .input-file {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.file-return {
+    margin: 0;
+    background: #e4e4e4;
+    position: absolute;
+    bottom: 39px;
+    z-index: 1;
+    left: 100%;
+}
+.file-return:not(:empty) {
+    margin: 1em 0;
+}
+.js .file-return {
+    word-wrap: break-word;
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    padding: 0px 3px ;
+}
+
+div.main-up-file {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    height: 250px;
+}
+
+div.main-up-file .up-file {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+}
+
+div.main-up-file img{
+    margin-top: 49px;
+    max-height: 200px ;
+    width: 100%;
+}
+
+#detail-page div.main-up-file button.add-file,button.add-file{
+    padding: 0px;
+    background: unset;
+    margin: 0;
+    display: none;
+}
+button.add-file i:hover{
+    background: unset ;
+    border:none ;
+    color:  #000;
+}
+#detail-page div.main-up-file button.add-file:hover{
+    background:  none;
+    border:none ;
+}
+#detail-page div.main-up-file .file-return{
+    bottom: 35px;
+}

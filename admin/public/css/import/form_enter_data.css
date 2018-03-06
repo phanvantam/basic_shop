@@ -1,0 +1,174 @@
+/*CHANGE PASS*/
+.change-pass-page #detail-page .section-detail input{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 35%;
+    margin-bottom: 15px;
+}
+.change-pass-page #detail-page .section-detail button{
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+}
+.change-pass-page #detail-page .section-detail select#level {
+    display: block;
+    padding: 6px;
+    margin-bottom: 19px;
+    margin-left: 100px;
+}
+
+.change-pass-page #detail-page .section-detail button:hover{ background: #3a7d19;}
+
+#wp-form{
+    background-image: url('../../images/background-form.png');
+    background-size: 100% 100% ;
+    position: relative;
+    height: 100% ;
+}
+#reset-pass{
+    padding: 20px;
+    font-size: 15px;
+}
+#wp-form .widget-content{
+    width: 376px ;
+    max-height: 350px ;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin:auto;
+    background: #ffffff42;
+}
+
+#wp-form form{
+    position: relative;
+}
+#wp-form .widget-title {
+    padding: 30px 0px ;
+    text-align: center;
+    line-height: 21px ;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff ;
+    text-transform: uppercase;
+}
+
+#wp-form input[type='password'],#wp-form input[type='submit'],#wp-form input[type='text']{
+    height: 42px;
+    width: 280px;
+    margin: 0px auto;
+    display: block;
+    margin-top: 14px;
+    border: solid 1px #cad2c3;
+    border-radius: 4px;
+    font-size: 14px ;
+    line-height: 21px ;
+    padding: 0px 30px;
+}
+
+
+#wp-form #login input[type='submit']{
+    padding: 0px 0px;
+    background-color: #91c46c;
+    width: 60px;
+    height: 60px;
+    border: 7px solid #fff;
+    border-radius: 31px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    background-image: url(../../images/icon-submit.png);
+    background-size: 100% 100%;
+}
+#wp-form input[type='submit'] {
+    background-color: #91c46c;
+    text-transform: uppercase;
+    color: white;
+}
+/* .slideThree */
+div.slideThree{
+    width: 80px;
+    height: 26px;
+    background: unset;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    border: 1px solid #383737;
+}
+div.slideThree input[type="checkbox"]{
+    visibility: hidden;
+    width: auto;
+}
+div.slideThree input[type="checkbox"]:checked + label {
+left: 43px ;
+}
+
+div.slideThree input[type="radio"]:checked + label {
+    left: 43px ;
+}
+.switch:checked + div.content-hidden {
+    display: block;
+}
+div.content-hidden {
+    display: none ;
+}
+div.content-hidden select{
+    width: 35%;
+    height: 34px;
+    margin-bottom: 25px;;
+}
+div.slideThree label{
+    display: block;
+    width: 34px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+    background:#307dfd ;
+    border-radius: 50px;
+    transition: left 0.4s ease;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+div.slideThree:before{
+     content: 'ON';
+     color: #27ae60;
+     position: absolute;
+     left: 10px;
+     z-index: 0;
+     font: 12px/26px Arial, sans-serif;
+     font-weight: bold;
+}
+div.slideThree:after{
+    content: 'OFF';
+    color: #000;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    font: 12px/26px Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+input.readonly{
+    background: #f3f3f3 ;
+}
+div.wp-input {
+    position: relative;
+    display: inline;
+}
+.info-account-page #detail-page .section-detail  div.wp-input input{
+    display: inline;
+}
+div.wp-input a i{
+    color: #555508;
+    position: absolute;
+    right: 5px;
+    top: -6px;
+    font-size: 22px;
+    line-height: 30px
+}
+/*end login*/

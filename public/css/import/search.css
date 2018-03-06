@@ -1,0 +1,104 @@
+#wp-list {
+    float: right;
+    width: 75%
+}
+li.post div.post-thumb a{
+    display: inline-block;
+    line-height: 0px;
+}
+li.post div.post-thumb{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding-right: 15px;
+}
+
+li.post div.post-content .title{
+    display: block;
+    font-size: 21px;
+    line-height: 30px;
+    font-family: 'Roboto Regular';
+    color: #1f1f1f;
+    padding-bottom: 5px;
+}
+li.post div.post-content {
+    width: 70%;
+}
+
+li.post {
+    margin-bottom: 10px ;
+}
+
+#search-status li{
+    float : left ;
+    margin-right: 10px ;
+}
+
+#search-status {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+#search-status li a{
+    color:#3c3c3c ;
+}
+#search-status li a.active{
+    color:red ;
+}
+
+li.product{
+    float: left;
+    width: 24.25%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background: #fff;
+    height: auto ;
+    position: relative;
+    padding: 10px 10px 30px 10px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+
+li.product .name{
+    display: block;
+    text-align: center;
+    color: #222;
+    font-family: 'Roboto Medium';
+    margin: 15px 0px 5px 0px;
+    line-height: normal;
+    min-height: 35px;
+}
+
+
+li.product div.info{
+    text-align: center ;
+    margin-bottom: 10px ;
+}
+
+li.product div.info .new{
+    display: inline-block;
+    font-family: 'Roboto Medium';
+    color: #f12a43;
+    font-size: 15px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+li.product div.info .old{
+    display: inline-block;
+    font-family: 'Roboto Light';
+    color: #999;
+    text-decoration: line-through;
+}
+li.product div.action a.add-cart{
+    border: 1px solid #333;
+    color: #333;
+}
+li.product div.action a.buy-now{
+    color: #da1818;
+    border: 1px solid #da1818;
+}
+li.product div.action a{
+     display: block;
+    padding: 2px 10px;
+    font-size: 12px;
+
+}

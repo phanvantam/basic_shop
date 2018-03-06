@@ -1,0 +1,53 @@
+/*LIST PRODUCT*/
+.tbody-thumb{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.tbody-thumb img{ border: 1px solid #ddd;}
+
+ul#list-option-img li{
+    padding-top: 10px;
+    float: left;
+    padding-left: 20px ;
+    padding-top:20px ;
+    position: relative;
+}
+
+ul#list-option-img div.main-up-file{
+    height: auto;
+}
+
+ul#list-option-img div.main-up-file i.drop{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#add-img-involve {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+    cursor: cell;
+    background: #4fa327;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+    margin: 5px ;
+}
+input[name="show-discount"]:checked + #wp-discount {
+    display: block ;
+}
+input[name="show-discount"]{
+    padding-left: 10px;
+    margin-left: 20px;
+}
+#wp-discount {
+    display: none ;
+}
+#wp-discount input {
+    border: 1px solid #ddd ;
+    margin-bottom: 10px;
+    display: block;
+}

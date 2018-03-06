@@ -1,0 +1,2 @@
+[29-Jan-2018 01:06:05 UTC] PHP Fatal error:  Call to undefined function get_controller() in /home/phanvantam/public_html/admin/core/router.php on line 4
+[29-Jan-2018 01:06:57 UTC] PHP Fatal error:  Call to undefined function get_controller() in /home/phanvantam/public_html/admin/core/router.php on line 4
